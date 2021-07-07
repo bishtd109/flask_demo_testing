@@ -1,6 +1,6 @@
 from flask import Flask,request
 app=Flask(__name__)
-@app.route("/check/",methods=['GET'])
+@app.route("/",methods=['GET'])
 def func():
 
     return "<h1>THIS IS FLASK APPP MADE BYME<h1>"
